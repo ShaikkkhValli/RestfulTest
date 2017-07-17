@@ -5,7 +5,7 @@
 	<artifactId>RestserviceTest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	
+
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
@@ -28,24 +28,19 @@
 		</plugins>
 	</build>
 	<dependencies>
-	
-	 
- 
+
+
+
 		<dependency>
 			<groupId>asm</groupId>
 			<artifactId>asm</artifactId>
 			<version>3.3.1</version>
 		</dependency>
-		<dependency>
-			<groupId>com.sun.jersey</groupId>
-			<artifactId>jersey-bundle</artifactId>
-			<version>1.19</version>
-		</dependency>
-		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20140107</version>
-		</dependency>
+
+		<!-- <dependency> <groupId>com.sun.jersey</groupId> <artifactId>jersey-bundle</artifactId> 
+			<version>1.19</version> </dependency> <dependency> <groupId>org.json</groupId> 
+			<artifactId>json</artifactId> <version>20140107</version> </dependency> -->
+
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-server</artifactId>
@@ -54,8 +49,10 @@
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-core</artifactId>
-			<version>1.19</version>
+			<version>1.8</version>
 		</dependency>
+
+
 		<dependency>
 			<groupId>io.minio</groupId>
 			<artifactId>minio</artifactId>
@@ -77,12 +74,8 @@
 			<version>1.2.5</version>
 			<scope>test</scope>
 		</dependency>
-		
-		
-		
-	 
-	 
-		
+
+
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-java</artifactId>
@@ -103,56 +96,55 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-guice</artifactId>
-            <version>1.2.5</version>
-            <scope>test</scope>
-        </dependency>
-   
-        <dependency>
-            <groupId>com.google.inject</groupId>
-            <artifactId>guice</artifactId>
-            <version>4.0</version>
-            <scope>test</scope>
-        </dependency>
-        
-         <dependency>
-            <groupId>com.smartbear.readyapi</groupId>
-            <artifactId>ready-api-testserver-client</artifactId>
-        </dependency>
-        
-        
-        <!-- https://mvnrepository.com/artifact/com.smartbear.readyapi/ready-api-testserver-client -->
-<dependency>
-    <groupId>com.smartbear.readyapi</groupId>
-    <artifactId>ready-api-testserver-client</artifactId>
-    <version>1.0.2</version>
-</dependency>
-        
-        <dependency>
-            <groupId>com.smartbear.readyapi.testserver.cucumber</groupId>
-            <artifactId>testserver-cucumber-core</artifactId>
-            <version>1.0.0</version>
-            <scope>test</scope>
-        </dependency>
-        
-        
-        <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime -->
-<dependency>
-    <groupId>org.apache.httpcomponents</groupId>
-    <artifactId>httpmime</artifactId>	
-    <version>4.5.3</version>
-</dependency>
-<dependency>
-    <groupId>com.jayway.restassured</groupId>
-    <artifactId>rest-assured</artifactId>
-    <version>2.9.0</version>
-     
-</dependency>
-        
-        
-  
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-guice</artifactId>
+			<version>1.2.5</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>4.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.smartbear.readyapi</groupId>
+			<artifactId>ready-api-testserver-client</artifactId>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/com.smartbear.readyapi/ready-api-testserver-client -->
+		<dependency>
+			<groupId>com.smartbear.readyapi</groupId>
+			<artifactId>ready-api-testserver-client</artifactId>
+			<version>1.0.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.smartbear.readyapi.testserver.cucumber</groupId>
+			<artifactId>testserver-cucumber-core</artifactId>
+			<version>1.0.0</version>
+			<scope>test</scope>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpmime</artifactId>
+			<version>4.5.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jayway.restassured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>2.9.0</version>
+
+		</dependency>
+ 
+
 	</dependencies>
 </project>
